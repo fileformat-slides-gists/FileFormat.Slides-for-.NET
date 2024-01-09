@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4qnPIPxZD+Cmb1BlZYoVmbXZxq1qoSWuWJ48MqMtg8T6NhcBJykoqTxKfprjdpKQGbeLCBJlFR0QXlnpbIITeA==",
+  "success": true,
+  "projectFilePath": "D:\\Local_Repos\\FileFormat.Examples\\FileFormat.Slides-for-.NET\\FileFormat.Slides.Examples\\FileFormat.Slides.Examples.Usage\\FileFormat.Slides.Examples.Usage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\documentformat.openxml\\2.20.0\\documentformat.openxml.2.20.0.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\fileformat.slides\\23.12.1\\fileformat.slides.23.12.1.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
