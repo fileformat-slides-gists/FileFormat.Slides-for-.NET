@@ -1,0 +1,276 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: FileFormat.Slides.Examples
+  name: FileFormat.Slides.Examples
+  href: api/FileFormat.Slides.Examples.html
+  commentId: N:FileFormat.Slides.Examples
+  fullName: FileFormat.Slides.Examples
+  nameWithType: FileFormat.Slides.Examples
+- uid: FileFormat.Slides.Examples.ImageExamples
+  name: ImageExamples
+  href: api/FileFormat.Slides.Examples.ImageExamples.html
+  commentId: T:FileFormat.Slides.Examples.ImageExamples
+  fullName: FileFormat.Slides.Examples.ImageExamples
+  nameWithType: ImageExamples
+- uid: FileFormat.Slides.Examples.ImageExamples.#ctor
+  name: ImageExamples()
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples__ctor
+  commentId: M:FileFormat.Slides.Examples.ImageExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Slides.Examples.ImageExamples.ImageExamples()
+  fullName.vb: FileFormat.Slides.Examples.ImageExamples.New()
+  nameWithType: ImageExamples.ImageExamples()
+  nameWithType.vb: ImageExamples.New()
+- uid: FileFormat.Slides.Examples.ImageExamples.#ctor*
+  name: ImageExamples
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples__ctor_
+  commentId: Overload:FileFormat.Slides.Examples.ImageExamples.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FileFormat.Slides.Examples.ImageExamples.ImageExamples
+  fullName.vb: FileFormat.Slides.Examples.ImageExamples.New
+  nameWithType: ImageExamples.ImageExamples
+  nameWithType.vb: ImageExamples.New
+- uid: FileFormat.Slides.Examples.ImageExamples.AddImageInASlide(System.String,System.String,System.String)
+  name: AddImageInASlide(string, string, string)
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples_AddImageInASlide_System_String_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.ImageExamples.AddImageInASlide(System.String,System.String,System.String)
+  name.vb: AddImageInASlide(String, String, String)
+  fullName: FileFormat.Slides.Examples.ImageExamples.AddImageInASlide(string, string, string)
+  fullName.vb: FileFormat.Slides.Examples.ImageExamples.AddImageInASlide(String, String, String)
+  nameWithType: ImageExamples.AddImageInASlide(string, string, string)
+  nameWithType.vb: ImageExamples.AddImageInASlide(String, String, String)
+- uid: FileFormat.Slides.Examples.ImageExamples.AddImageInASlide*
+  name: AddImageInASlide
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples_AddImageInASlide_
+  commentId: Overload:FileFormat.Slides.Examples.ImageExamples.AddImageInASlide
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.ImageExamples.AddImageInASlide
+  nameWithType: ImageExamples.AddImageInASlide
+- uid: FileFormat.Slides.Examples.ImageExamples.RemoveImageInExistingSlide(System.String,System.String)
+  name: RemoveImageInExistingSlide(string, string)
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples_RemoveImageInExistingSlide_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.ImageExamples.RemoveImageInExistingSlide(System.String,System.String)
+  name.vb: RemoveImageInExistingSlide(String, String)
+  fullName: FileFormat.Slides.Examples.ImageExamples.RemoveImageInExistingSlide(string, string)
+  fullName.vb: FileFormat.Slides.Examples.ImageExamples.RemoveImageInExistingSlide(String, String)
+  nameWithType: ImageExamples.RemoveImageInExistingSlide(string, string)
+  nameWithType.vb: ImageExamples.RemoveImageInExistingSlide(String, String)
+- uid: FileFormat.Slides.Examples.ImageExamples.RemoveImageInExistingSlide*
+  name: RemoveImageInExistingSlide
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples_RemoveImageInExistingSlide_
+  commentId: Overload:FileFormat.Slides.Examples.ImageExamples.RemoveImageInExistingSlide
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.ImageExamples.RemoveImageInExistingSlide
+  nameWithType: ImageExamples.RemoveImageInExistingSlide
+- uid: FileFormat.Slides.Examples.ImageExamples.UpdateImageInExistingSlide(System.String,System.String,System.Double,System.Double)
+  name: UpdateImageInExistingSlide(string, string, double, double)
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples_UpdateImageInExistingSlide_System_String_System_String_System_Double_System_Double_
+  commentId: M:FileFormat.Slides.Examples.ImageExamples.UpdateImageInExistingSlide(System.String,System.String,System.Double,System.Double)
+  name.vb: UpdateImageInExistingSlide(String, String, Double, Double)
+  fullName: FileFormat.Slides.Examples.ImageExamples.UpdateImageInExistingSlide(string, string, double, double)
+  fullName.vb: FileFormat.Slides.Examples.ImageExamples.UpdateImageInExistingSlide(String, String, Double, Double)
+  nameWithType: ImageExamples.UpdateImageInExistingSlide(string, string, double, double)
+  nameWithType.vb: ImageExamples.UpdateImageInExistingSlide(String, String, Double, Double)
+- uid: FileFormat.Slides.Examples.ImageExamples.UpdateImageInExistingSlide*
+  name: UpdateImageInExistingSlide
+  href: api/FileFormat.Slides.Examples.ImageExamples.html#FileFormat_Slides_Examples_ImageExamples_UpdateImageInExistingSlide_
+  commentId: Overload:FileFormat.Slides.Examples.ImageExamples.UpdateImageInExistingSlide
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.ImageExamples.UpdateImageInExistingSlide
+  nameWithType: ImageExamples.UpdateImageInExistingSlide
+- uid: FileFormat.Slides.Examples.SlideExamples
+  name: SlideExamples
+  href: api/FileFormat.Slides.Examples.SlideExamples.html
+  commentId: T:FileFormat.Slides.Examples.SlideExamples
+  fullName: FileFormat.Slides.Examples.SlideExamples
+  nameWithType: SlideExamples
+- uid: FileFormat.Slides.Examples.SlideExamples.#ctor
+  name: SlideExamples()
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples__ctor
+  commentId: M:FileFormat.Slides.Examples.SlideExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Slides.Examples.SlideExamples.SlideExamples()
+  fullName.vb: FileFormat.Slides.Examples.SlideExamples.New()
+  nameWithType: SlideExamples.SlideExamples()
+  nameWithType.vb: SlideExamples.New()
+- uid: FileFormat.Slides.Examples.SlideExamples.#ctor*
+  name: SlideExamples
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples__ctor_
+  commentId: Overload:FileFormat.Slides.Examples.SlideExamples.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FileFormat.Slides.Examples.SlideExamples.SlideExamples
+  fullName.vb: FileFormat.Slides.Examples.SlideExamples.New
+  nameWithType: SlideExamples.SlideExamples
+  nameWithType.vb: SlideExamples.New
+- uid: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInExistingPresentation(System.String,System.String)
+  name: CreateNewSlideInExistingPresentation(string, string)
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples_CreateNewSlideInExistingPresentation_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInExistingPresentation(System.String,System.String)
+  name.vb: CreateNewSlideInExistingPresentation(String, String)
+  fullName: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInExistingPresentation(string, string)
+  fullName.vb: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInExistingPresentation(String, String)
+  nameWithType: SlideExamples.CreateNewSlideInExistingPresentation(string, string)
+  nameWithType.vb: SlideExamples.CreateNewSlideInExistingPresentation(String, String)
+- uid: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInExistingPresentation*
+  name: CreateNewSlideInExistingPresentation
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples_CreateNewSlideInExistingPresentation_
+  commentId: Overload:FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInExistingPresentation
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInExistingPresentation
+  nameWithType: SlideExamples.CreateNewSlideInExistingPresentation
+- uid: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInNewPresentation(System.String,System.String)
+  name: CreateNewSlideInNewPresentation(string, string)
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples_CreateNewSlideInNewPresentation_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInNewPresentation(System.String,System.String)
+  name.vb: CreateNewSlideInNewPresentation(String, String)
+  fullName: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInNewPresentation(string, string)
+  fullName.vb: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInNewPresentation(String, String)
+  nameWithType: SlideExamples.CreateNewSlideInNewPresentation(string, string)
+  nameWithType.vb: SlideExamples.CreateNewSlideInNewPresentation(String, String)
+- uid: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInNewPresentation*
+  name: CreateNewSlideInNewPresentation
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples_CreateNewSlideInNewPresentation_
+  commentId: Overload:FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInNewPresentation
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.SlideExamples.CreateNewSlideInNewPresentation
+  nameWithType: SlideExamples.CreateNewSlideInNewPresentation
+- uid: FileFormat.Slides.Examples.SlideExamples.RemoveSlideInAnExistingPresentation(System.String,System.String)
+  name: RemoveSlideInAnExistingPresentation(string, string)
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples_RemoveSlideInAnExistingPresentation_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.SlideExamples.RemoveSlideInAnExistingPresentation(System.String,System.String)
+  name.vb: RemoveSlideInAnExistingPresentation(String, String)
+  fullName: FileFormat.Slides.Examples.SlideExamples.RemoveSlideInAnExistingPresentation(string, string)
+  fullName.vb: FileFormat.Slides.Examples.SlideExamples.RemoveSlideInAnExistingPresentation(String, String)
+  nameWithType: SlideExamples.RemoveSlideInAnExistingPresentation(string, string)
+  nameWithType.vb: SlideExamples.RemoveSlideInAnExistingPresentation(String, String)
+- uid: FileFormat.Slides.Examples.SlideExamples.RemoveSlideInAnExistingPresentation*
+  name: RemoveSlideInAnExistingPresentation
+  href: api/FileFormat.Slides.Examples.SlideExamples.html#FileFormat_Slides_Examples_SlideExamples_RemoveSlideInAnExistingPresentation_
+  commentId: Overload:FileFormat.Slides.Examples.SlideExamples.RemoveSlideInAnExistingPresentation
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.SlideExamples.RemoveSlideInAnExistingPresentation
+  nameWithType: SlideExamples.RemoveSlideInAnExistingPresentation
+- uid: FileFormat.Slides.Examples.TextExamples
+  name: TextExamples
+  href: api/FileFormat.Slides.Examples.TextExamples.html
+  commentId: T:FileFormat.Slides.Examples.TextExamples
+  fullName: FileFormat.Slides.Examples.TextExamples
+  nameWithType: TextExamples
+- uid: FileFormat.Slides.Examples.TextExamples.#ctor
+  name: TextExamples()
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples__ctor
+  commentId: M:FileFormat.Slides.Examples.TextExamples.#ctor
+  name.vb: New()
+  fullName: FileFormat.Slides.Examples.TextExamples.TextExamples()
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.New()
+  nameWithType: TextExamples.TextExamples()
+  nameWithType.vb: TextExamples.New()
+- uid: FileFormat.Slides.Examples.TextExamples.#ctor*
+  name: TextExamples
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples__ctor_
+  commentId: Overload:FileFormat.Slides.Examples.TextExamples.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: FileFormat.Slides.Examples.TextExamples.TextExamples
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.New
+  nameWithType: TextExamples.TextExamples
+  nameWithType.vb: TextExamples.New
+- uid: FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide(System.String,System.String)
+  name: AddNewTextShapeExistingSlide(string, string)
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_AddNewTextShapeExistingSlide_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide(System.String,System.String)
+  name.vb: AddNewTextShapeExistingSlide(String, String)
+  fullName: FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide(string, string)
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide(String, String)
+  nameWithType: TextExamples.AddNewTextShapeExistingSlide(string, string)
+  nameWithType.vb: TextExamples.AddNewTextShapeExistingSlide(String, String)
+- uid: FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide*
+  name: AddNewTextShapeExistingSlide
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_AddNewTextShapeExistingSlide_
+  commentId: Overload:FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide
+  nameWithType: TextExamples.AddNewTextShapeExistingSlide
+- uid: FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide(System.String,System.String)
+  name: CreateNewTextShapeInNewSlide(string, string)
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_CreateNewTextShapeInNewSlide_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide(System.String,System.String)
+  name.vb: CreateNewTextShapeInNewSlide(String, String)
+  fullName: FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide(string, string)
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide(String, String)
+  nameWithType: TextExamples.CreateNewTextShapeInNewSlide(string, string)
+  nameWithType.vb: TextExamples.CreateNewTextShapeInNewSlide(String, String)
+- uid: FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide*
+  name: CreateNewTextShapeInNewSlide
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_CreateNewTextShapeInNewSlide_
+  commentId: Overload:FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide
+  nameWithType: TextExamples.CreateNewTextShapeInNewSlide
+- uid: FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape(System.String,System.String)
+  name: SetBackgroundColorOfTextShape(string, string)
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetBackgroundColorOfTextShape_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape(System.String,System.String)
+  name.vb: SetBackgroundColorOfTextShape(String, String)
+  fullName: FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape(string, string)
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape(String, String)
+  nameWithType: TextExamples.SetBackgroundColorOfTextShape(string, string)
+  nameWithType.vb: TextExamples.SetBackgroundColorOfTextShape(String, String)
+- uid: FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape*
+  name: SetBackgroundColorOfTextShape
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetBackgroundColorOfTextShape_
+  commentId: Overload:FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape
+  nameWithType: TextExamples.SetBackgroundColorOfTextShape
+- uid: FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape(System.String,System.String)
+  name: SetFontFamilyofTextShape(string, string)
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetFontFamilyofTextShape_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape(System.String,System.String)
+  name.vb: SetFontFamilyofTextShape(String, String)
+  fullName: FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape(string, string)
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape(String, String)
+  nameWithType: TextExamples.SetFontFamilyofTextShape(string, string)
+  nameWithType.vb: TextExamples.SetFontFamilyofTextShape(String, String)
+- uid: FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape*
+  name: SetFontFamilyofTextShape
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetFontFamilyofTextShape_
+  commentId: Overload:FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape
+  nameWithType: TextExamples.SetFontFamilyofTextShape
+- uid: FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape(System.String,System.String)
+  name: SetFontSizeOfTextShape(string, string)
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetFontSizeOfTextShape_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape(System.String,System.String)
+  name.vb: SetFontSizeOfTextShape(String, String)
+  fullName: FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape(string, string)
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape(String, String)
+  nameWithType: TextExamples.SetFontSizeOfTextShape(string, string)
+  nameWithType.vb: TextExamples.SetFontSizeOfTextShape(String, String)
+- uid: FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape*
+  name: SetFontSizeOfTextShape
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetFontSizeOfTextShape_
+  commentId: Overload:FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape
+  nameWithType: TextExamples.SetFontSizeOfTextShape
+- uid: FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape(System.String,System.String)
+  name: SetTextColorOfTextShape(string, string)
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetTextColorOfTextShape_System_String_System_String_
+  commentId: M:FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape(System.String,System.String)
+  name.vb: SetTextColorOfTextShape(String, String)
+  fullName: FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape(string, string)
+  fullName.vb: FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape(String, String)
+  nameWithType: TextExamples.SetTextColorOfTextShape(string, string)
+  nameWithType.vb: TextExamples.SetTextColorOfTextShape(String, String)
+- uid: FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape*
+  name: SetTextColorOfTextShape
+  href: api/FileFormat.Slides.Examples.TextExamples.html#FileFormat_Slides_Examples_TextExamples_SetTextColorOfTextShape_
+  commentId: Overload:FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape
+  isSpec: "True"
+  fullName: FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape
+  nameWithType: TextExamples.SetTextColorOfTextShape
