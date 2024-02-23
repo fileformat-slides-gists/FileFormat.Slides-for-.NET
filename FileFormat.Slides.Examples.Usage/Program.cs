@@ -36,6 +36,13 @@ namespace FileFormat.Slides.Examples.Usage
             //styledListExamples.AddListItemsInAnExistingList(filename: "test.pptx");
             
             //styledListExamples.RemoveListItemsInAnExistingList(filename: "test.pptx");
+
+            TableExamples tableExamples= new TableExamples();
+
+            //tableExamples.CreateSimpleTableInASlide(filename: "sample.pptx");
+            //tableExamples.CreateTableWithTableStylingsInASlide(filename: "sample.pptx");
+            //tableExamples.CreateTableWithRowStylingsInASlide(filename: "sample.pptx");
+            tableExamples.CreateTableWithCellStylingsInASlide(filename: "sample.pptx");
         }
     }
 }

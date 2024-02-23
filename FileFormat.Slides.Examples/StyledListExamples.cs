@@ -15,7 +15,7 @@ namespace FileFormat.Slides.Examples
         private const string newDocsDirectory = "../../../Presentations/New";
         private const string existingDocsDirectory = "../../../Presentations/Existing";
         /// <summary>
-        /// Initializes a new instance of the <see cref="SlideExamples"/> class.
+        /// Initializes a new instance of the <see cref="StyledListExamples"/> class.
         /// Prepares the directory 'Presentations/New' for storing or loading PowerPoint(PPT or PPTX) presentations
         /// at the root of the project.
         /// If the directory doesn't exist, it is created. If it already exists,
