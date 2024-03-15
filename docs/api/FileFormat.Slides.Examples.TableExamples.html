@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TextExamples | FileFormat.Slides </title>
+      <title>Class TableExamples | FileFormat.Slides </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TextExamples | FileFormat.Slides ">
+      <meta name="title" content="Class TableExamples | FileFormat.Slides ">
       
-      <meta name="description" content="Provides C# code examples for creating, reading, and modifying Text segments or shapes in a Presentation using the FileFormat.Slides library.">
+      <meta name="description" content="Provides examples for creating tables in PowerPoint presentations.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="FileFormat.Slides.Examples.TextExamples">
+        <article data-uid="FileFormat.Slides.Examples.TableExamples">
 
 
 
-  <h1 id="FileFormat_Slides_Examples_TextExamples" data-uid="FileFormat.Slides.Examples.TextExamples" class="text-break">
-Class TextExamples  
+  <h1 id="FileFormat_Slides_Examples_TableExamples" data-uid="FileFormat.Slides.Examples.TableExamples" class="text-break">
+Class TableExamples  
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,12 @@ Class TextExamples
   <dl><dt>Assembly</dt><dd>FileFormat.Slides.Examples.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Provides C# code examples for creating, reading, and modifying Text segments or shapes in a Presentation
-using the <a href="https://www.nuget.org/packages/FileFormat.Slides">FileFormat.Slides</a> library.</p>
+  <div class="markdown summary"><p>Provides examples for creating tables in PowerPoint presentations.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TextExamples</code></pre>
+    <pre><code class="lang-csharp hljs">public class TableExamples</code></pre>
   </div>
 
 
@@ -113,7 +112,7 @@ using the <a href="https://www.nuget.org/packages/FileFormat.Slides">FileFormat.
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-      <div><span class="xref">TextExamples</span></div>
+      <div><span class="xref">TableExamples</span></div>
     </dd>
   </dl>
 
@@ -154,14 +153,14 @@ using the <a href="https://www.nuget.org/packages/FileFormat.Slides">FileFormat.
 </h2>
 
 
-  <a id="FileFormat_Slides_Examples_TextExamples__ctor_" data-uid="FileFormat.Slides.Examples.TextExamples.#ctor*"></a>
+  <a id="FileFormat_Slides_Examples_TableExamples__ctor_" data-uid="FileFormat.Slides.Examples.TableExamples.#ctor*"></a>
 
-  <h3 id="FileFormat_Slides_Examples_TextExamples__ctor" data-uid="FileFormat.Slides.Examples.TextExamples.#ctor">
-  TextExamples()
+  <h3 id="FileFormat_Slides_Examples_TableExamples__ctor" data-uid="FileFormat.Slides.Examples.TableExamples.#ctor">
+  TableExamples()
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FileFormat.Slides.Examples.TextExamples.html">TextExamples</a> class.
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FileFormat.Slides.Examples.TableExamples.html">TableExamples</a> class.
 Prepares the directory 'Presentations/New' for storing or loading PowerPoint(PPT or PPTX) presentations
 at the root of the project.
 If the directory doesn't exist, it is created. If it already exists,
@@ -170,7 +169,7 @@ existing files are deleted, and the directory is cleaned up.</p>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextExamples()</code></pre>
+    <pre><code class="lang-csharp hljs">public TableExamples()</code></pre>
   </div>
 
 
@@ -189,28 +188,28 @@ existing files are deleted, and the directory is cleaned up.</p>
 </h2>
 
 
-  <a id="FileFormat_Slides_Examples_TextExamples_AddNewTextShapeExistingSlide_" data-uid="FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide*"></a>
+  <a id="FileFormat_Slides_Examples_TableExamples_AddColumnWithCellValuesInAnExistingTableInASlide_" data-uid="FileFormat.Slides.Examples.TableExamples.AddColumnWithCellValuesInAnExistingTableInASlide*"></a>
 
-  <h3 id="FileFormat_Slides_Examples_TextExamples_AddNewTextShapeExistingSlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TextExamples.AddNewTextShapeExistingSlide(System.String,System.String)">
-  AddNewTextShapeExistingSlide(string, string)
+  <h3 id="FileFormat_Slides_Examples_TableExamples_AddColumnWithCellValuesInAnExistingTableInASlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TableExamples.AddColumnWithCellValuesInAnExistingTableInASlide(System.String,System.String)">
+  AddColumnWithCellValuesInAnExistingTableInASlide(string, string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>Add text shape to an existing slide</p>
+  <div class="markdown level1 summary"><p>Adds a new column with cell values to an existing table in a slide of a PowerPoint presentation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddNewTextShapeExistingSlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddColumnWithCellValuesInAnExistingTableInASlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Path of the presentation folder</p>
+    <dd><p>The directory where the PowerPoint presentation is located.</p>
 </dd>
     <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Presentation name</p>
+    <dd><p>The name of the PowerPoint file.</p>
 </dd>
   </dl>
 
@@ -225,28 +224,28 @@ existing files are deleted, and the directory is cleaned up.</p>
 
 
 
-  <a id="FileFormat_Slides_Examples_TextExamples_CreateNewTextShapeInNewSlide_" data-uid="FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide*"></a>
+  <a id="FileFormat_Slides_Examples_TableExamples_AddRowInAnExistingTableInASlide_" data-uid="FileFormat.Slides.Examples.TableExamples.AddRowInAnExistingTableInASlide*"></a>
 
-  <h3 id="FileFormat_Slides_Examples_TextExamples_CreateNewTextShapeInNewSlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TextExamples.CreateNewTextShapeInNewSlide(System.String,System.String)">
-  CreateNewTextShapeInNewSlide(string, string)
+  <h3 id="FileFormat_Slides_Examples_TableExamples_AddRowInAnExistingTableInASlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TableExamples.AddRowInAnExistingTableInASlide(System.String,System.String)">
+  AddRowInAnExistingTableInASlide(string, string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This method adds text segment or shape in the silde of a new PowerPoint presentation.</p>
+  <div class="markdown level1 summary"><p>Adds a new row to an existing table in a slide of a PowerPoint presentation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void CreateNewTextShapeInNewSlide(string documentDirectory = &quot;../../../Presentations/New&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddRowInAnExistingTableInASlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Path of the presentation folder</p>
+    <dd><p>The directory where the PowerPoint presentation is located.</p>
 </dd>
     <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Presentation name</p>
+    <dd><p>The name of the PowerPoint file.</p>
 </dd>
   </dl>
 
@@ -261,28 +260,28 @@ existing files are deleted, and the directory is cleaned up.</p>
 
 
 
-  <a id="FileFormat_Slides_Examples_TextExamples_SetBackgroundColorOfTextShape_" data-uid="FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape*"></a>
+  <a id="FileFormat_Slides_Examples_TableExamples_CreateSimpleTableInASlide_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateSimpleTableInASlide*"></a>
 
-  <h3 id="FileFormat_Slides_Examples_TextExamples_SetBackgroundColorOfTextShape_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TextExamples.SetBackgroundColorOfTextShape(System.String,System.String)">
-  SetBackgroundColorOfTextShape(string, string)
+  <h3 id="FileFormat_Slides_Examples_TableExamples_CreateSimpleTableInASlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateSimpleTableInASlide(System.String,System.String)">
+  CreateSimpleTableInASlide(string, string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This method Sets the background color of a text shape</p>
+  <div class="markdown level1 summary"><p>Creates a simple table in a slide of a PowerPoint presentation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetBackgroundColorOfTextShape(string documentDirectory = &quot;../../../Presentations/New&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateSimpleTableInASlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Path of the presentation folder</p>
+    <dd><p>The directory where the PowerPoint presentation is located. Default is 'Presentations/Existing'.</p>
 </dd>
     <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Presentation name</p>
+    <dd><p>The name of the PowerPoint file. Default is 'test.pptx'.</p>
 </dd>
   </dl>
 
@@ -297,28 +296,28 @@ existing files are deleted, and the directory is cleaned up.</p>
 
 
 
-  <a id="FileFormat_Slides_Examples_TextExamples_SetFontFamilyofTextShape_" data-uid="FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape*"></a>
+  <a id="FileFormat_Slides_Examples_TableExamples_CreateTableWithCellStylingsInASlide_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithCellStylingsInASlide*"></a>
 
-  <h3 id="FileFormat_Slides_Examples_TextExamples_SetFontFamilyofTextShape_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TextExamples.SetFontFamilyofTextShape(System.String,System.String)">
-  SetFontFamilyofTextShape(string, string)
+  <h3 id="FileFormat_Slides_Examples_TableExamples_CreateTableWithCellStylingsInASlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithCellStylingsInASlide(System.String,System.String)">
+  CreateTableWithCellStylingsInASlide(string, string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This method sets the font family of a text shape</p>
+  <div class="markdown level1 summary"><p>Creates a table with stylings applied to cells in a slide of a PowerPoint presentation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetFontFamilyofTextShape(string documentDirectory = &quot;../../../Presentations/New&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateTableWithCellStylingsInASlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Path of the presentation folder</p>
+    <dd><p>The directory where the PowerPoint presentation is located. Default is 'Presentations/Existing'.</p>
 </dd>
     <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Presentation name</p>
+    <dd><p>The name of the PowerPoint file. Default is 'test.pptx'.</p>
 </dd>
   </dl>
 
@@ -333,28 +332,28 @@ existing files are deleted, and the directory is cleaned up.</p>
 
 
 
-  <a id="FileFormat_Slides_Examples_TextExamples_SetFontSizeOfTextShape_" data-uid="FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape*"></a>
+  <a id="FileFormat_Slides_Examples_TableExamples_CreateTableWithRowStylingsInASlide_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithRowStylingsInASlide*"></a>
 
-  <h3 id="FileFormat_Slides_Examples_TextExamples_SetFontSizeOfTextShape_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TextExamples.SetFontSizeOfTextShape(System.String,System.String)">
-  SetFontSizeOfTextShape(string, string)
+  <h3 id="FileFormat_Slides_Examples_TableExamples_CreateTableWithRowStylingsInASlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithRowStylingsInASlide(System.String,System.String)">
+  CreateTableWithRowStylingsInASlide(string, string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This method sets font size of the text</p>
+  <div class="markdown level1 summary"><p>Creates a table with stylings applied to rows in a slide of a PowerPoint presentation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetFontSizeOfTextShape(string documentDirectory = &quot;../../../Presentations/New&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateTableWithRowStylingsInASlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Path of the presentation folder</p>
+    <dd><p>The directory where the PowerPoint presentation is located. Default is 'Presentations/Existing'.</p>
 </dd>
     <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Presentation name</p>
+    <dd><p>The name of the PowerPoint file. Default is 'test.pptx'.</p>
 </dd>
   </dl>
 
@@ -369,28 +368,64 @@ existing files are deleted, and the directory is cleaned up.</p>
 
 
 
-  <a id="FileFormat_Slides_Examples_TextExamples_SetTextColorOfTextShape_" data-uid="FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape*"></a>
+  <a id="FileFormat_Slides_Examples_TableExamples_CreateTableWithTableStylingsInASlide_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithTableStylingsInASlide*"></a>
 
-  <h3 id="FileFormat_Slides_Examples_TextExamples_SetTextColorOfTextShape_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TextExamples.SetTextColorOfTextShape(System.String,System.String)">
-  SetTextColorOfTextShape(string, string)
+  <h3 id="FileFormat_Slides_Examples_TableExamples_CreateTableWithTableStylingsInASlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithTableStylingsInASlide(System.String,System.String)">
+  CreateTableWithTableStylingsInASlide(string, string)
   
   </h3>
 
-  <div class="markdown level1 summary"><p>This method sets the text color of text shape</p>
+  <div class="markdown level1 summary"><p>Creates a table with stylings applied in a slide of a PowerPoint presentation.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTextColorOfTextShape(string documentDirectory = &quot;../../../Presentations/New&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">public void CreateTableWithTableStylingsInASlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Path of the presentation folder</p>
+    <dd><p>The directory where the PowerPoint presentation is located. Default is 'Presentations/Existing'.</p>
 </dd>
     <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Presentation name</p>
+    <dd><p>The name of the PowerPoint file. Default is 'test.pptx'.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="FileFormat_Slides_Examples_TableExamples_CreateTableWithThemeInASlide_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithThemeInASlide*"></a>
+
+  <h3 id="FileFormat_Slides_Examples_TableExamples_CreateTableWithThemeInASlide_System_String_System_String_" data-uid="FileFormat.Slides.Examples.TableExamples.CreateTableWithThemeInASlide(System.String,System.String)">
+  CreateTableWithThemeInASlide(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>Creates a table with a predefined theme applied to the entire table in a slide of a PowerPoint presentation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CreateTableWithThemeInASlide(string documentDirectory = &quot;../../../Presentations/Existing&quot;, string filename = &quot;test.pptx&quot;)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>documentDirectory</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The directory where the PowerPoint presentation is located.</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The name of the PowerPoint file.</p>
 </dd>
   </dl>
 
