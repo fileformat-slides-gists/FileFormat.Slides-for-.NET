@@ -1,13 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>FileFormat.Slides.Examples.Usage.Program</StartupObject>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>D:\Local_Repos\FileFormat.Examples\FileFormat.Slides-for-.NET\FileFormat.Slides.Examples\FileFormat.Slides.Examples.Usage\FileFormat.Slides.Examples.Usage.xml</DocumentationFile>
+    <Optimize>True</Optimize>
   </PropertyGroup>
+
+
 
   <ItemGroup>
     <ProjectReference Include="..\FileFormat.Slides.Examples\FileFormat.Slides.Examples.csproj" />

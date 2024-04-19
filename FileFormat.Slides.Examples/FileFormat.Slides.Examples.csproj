@@ -2,6 +2,7 @@
 
   <PropertyGroup>
       <TargetFramework>netcoreapp3.1</TargetFramework>
+      <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -9,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FileFormat.Slides" Version="23.12.1" />
+    <PackageReference Include="FileFormat.Slides" Version="24.4.0" />
   </ItemGroup>
 
 </Project>

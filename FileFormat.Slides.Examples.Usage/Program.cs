@@ -46,6 +46,15 @@ namespace FileFormat.Slides.Examples.Usage
             //tableExamples.CreateTableWithThemeInASlide(filename: "sample.pptx");
             //tableExamples.AddRowInAnExistingTableInASlide(filename: "sample.pptx");
             //tableExamples.AddColumnWithCellValuesInAnExistingTableInASlide(filename: "sample.pptx");
+
+            //CommentExamples commentExamples = new CommentExamples();
+            //commentExamples.CreateCommentInASlide(filename: "sample.pptx");
+            //commentExamples.RemoveACommentFromASlide(filename: "sample.pptx");
+            //commentExamples.AddCommentWithExistingCommentAuthor(filename: "sample.pptx");
+
+            //CommentAuthorExamples authorExamples = new CommentAuthorExamples();
+            //authorExamples.AddCommentAuthor(filename: "sample.pptx");
+            //authorExamples.RemoveCommentAuthor(filename: "sample.pptx");
         }
     }
 }
