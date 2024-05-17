@@ -55,6 +55,11 @@ namespace FileFormat.Slides.Examples.Usage
             //CommentAuthorExamples authorExamples = new CommentAuthorExamples();
             //authorExamples.AddCommentAuthor(filename: "sample.pptx");
             //authorExamples.RemoveCommentAuthor(filename: "sample.pptx");
+
+            //NotesExamples notesExamples = new NotesExamples();
+            //notesExamples.CreateNotesInASlide(filename: "sample.pptx");
+            //notesExamples.RemoveNotesFromASlide(filename: "sample.pptx");
+            //notesExamples.ExportNotesToTextFile(filename: "sample.pptx");
         }
     }
 }
