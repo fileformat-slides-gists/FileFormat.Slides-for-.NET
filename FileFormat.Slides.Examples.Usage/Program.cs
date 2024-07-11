@@ -60,6 +60,18 @@ namespace FileFormat.Slides.Examples.Usage
             //notesExamples.CreateNotesInASlide(filename: "sample.pptx");
             //notesExamples.RemoveNotesFromASlide(filename: "sample.pptx");
             //notesExamples.ExportNotesToTextFile(filename: "sample.pptx");
+
+            //RectangleExamples rectangleExamples = new RectangleExamples();
+            //rectangleExamples.DrawNewRectangleShapeInNewSlide(filename: "sample.pptx");
+            //rectangleExamples.RemoveRectangleShapeExistingSlide(filename: "sample.pptx");
+            //rectangleExamples.SetBackgroundColorOfRectangle(filename: "sample.pptx");
+
+            //CircleExamples circleExamples = new CircleExamples();
+            //circleExamples.DrawCircleShapeInNewSlide(filename: "sample.pptx");
+            //circleExamples.SetBackgroundColorOfCircle(filename: "sample.pptx");
+            //circleExamples.RemoveCircleShapeExistingSlide(filename: "sample.pptx");
+
+
         }
     }
 }
