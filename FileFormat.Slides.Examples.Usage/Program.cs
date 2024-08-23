@@ -8,7 +8,7 @@ namespace FileFormat.Slides.Examples.Usage
         static void Main (string[ ] args)
         {
             //SlideExamples slideExamples = new SlideExamples();
-            
+
             //slideExamples.CreateNewSlideInNewPresentation();
 
             //slideExamples.CreateNewSlideInExistingPresentation(filename:"test.pptx");
@@ -18,23 +18,23 @@ namespace FileFormat.Slides.Examples.Usage
             //slideExamples.AddBackgroundColorToAnExistingSlide(filename: "sample.pptx");
 
             //TextExamples textExamples = new TextExamples();
-            
+
             //textExamples.CreateNewTextShapeInNewSlide();
-            
+
             //textExamples.AddNewTextShapeExistingSlide(filename: "sample.pptx");
 
             //ImageExamples imageExamples = new ImageExamples();
-            
+
             //imageExamples.AddImageInASlide(imagename:"sample.jpg");
-            
+
             //imageExamples.UpdateImageInExistingSlide(filename: "sample.pptx", xAxis: 300.0, yAxis: 200.0);
 
             //StyledListExamples styledListExamples = new StyledListExamples();
-            
+
             //styledListExamples.CreateBulletedListInASlide();
-            
+
             //styledListExamples.AddListItemsInAnExistingList(filename: "test.pptx");
-            
+
             //styledListExamples.RemoveListItemsInAnExistingList(filename: "test.pptx");
 
             //TableExamples tableExamples= new TableExamples();
@@ -70,6 +70,16 @@ namespace FileFormat.Slides.Examples.Usage
             //circleExamples.DrawCircleShapeInNewSlide(filename: "sample.pptx");
             //circleExamples.SetBackgroundColorOfCircle(filename: "sample.pptx");
             //circleExamples.RemoveCircleShapeExistingSlide(filename: "sample.pptx");
+
+            //TriangleExamples triangleExamples = new TriangleExamples();
+            //triangleExamples.DrawNewTriangleShapeInNewSlide(filename: "sample.pptx");
+            //triangleExamples.RemoveTriangleShapeExistingSlide(filename: "sample.pptx");
+            //triangleExamples.SetBackgroundColorOfTriangle(filename: "sample.pptx");
+
+            //TriangleExamples diamondExamples = new DiamondExamples();
+            //diamondExamples.DrawNewDiamondShapeInNewSlide(filename: "sample.pptx");
+            //diamondExamples.RemoveDiamondShapeExistingSlide(filename: "sample.pptx");
+            //diamondExamples.SetBackgroundColorOfDiamond(filename: "sample.pptx");
 
 
         }
