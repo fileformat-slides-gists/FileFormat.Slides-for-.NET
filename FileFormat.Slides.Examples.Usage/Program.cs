@@ -76,11 +76,26 @@ namespace FileFormat.Slides.Examples.Usage
             //triangleExamples.RemoveTriangleShapeExistingSlide(filename: "sample.pptx");
             //triangleExamples.SetBackgroundColorOfTriangle(filename: "sample.pptx");
 
-            //TriangleExamples diamondExamples = new DiamondExamples();
+            //DiamondExamples diamondExamples = new DiamondExamples();
             //diamondExamples.DrawNewDiamondShapeInNewSlide(filename: "sample.pptx");
             //diamondExamples.RemoveDiamondShapeExistingSlide(filename: "sample.pptx");
             //diamondExamples.SetBackgroundColorOfDiamond(filename: "sample.pptx");
 
+            //LineExamples lineExamples = new LineExamples();
+            //lineExamples.DrawNewLineShapeInNewSlide(filename: "sample.pptx");
+            //lineExamples.RemoveLineShapeExistingSlide(filename: "sample.pptx");
+
+            //CurvedLineExamples curvedlineExamples = new CurvedLineExamples();
+            //curvedlineExamples.DrawNewCurvedLineShapeInNewSlide(filename: "sample.pptx");
+            //curvedlineExamples.RemoveCurvedLineShapeExistingSlide(filename: "sample.pptx");
+
+            //ArrowExamples curvedlineExamples = new ArrowExamples();
+            //arrowExamples.DrawNewArrowShapeInNewSlide(filename: "sample.pptx");
+            //arrowExamples.RemoveArrowShapeExistingSlide(filename: "sample.pptx");
+
+            //DoubleArrowExamples doubleArrowExamples = new DoubleArrowExamples();
+            //doubleArrowExamples.DrawNewDoubleArrowShapeInNewSlide(filename: "sample.pptx");
+            //doubleArrowExamples.RemoveDoubleArrowShapeExistingSlide(filename: "sample.pptx");
 
         }
     }
