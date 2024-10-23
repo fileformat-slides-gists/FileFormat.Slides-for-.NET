@@ -97,6 +97,17 @@ namespace FileFormat.Slides.Examples.Usage
             //doubleArrowExamples.DrawNewDoubleArrowShapeInNewSlide(filename: "sample.pptx");
             //doubleArrowExamples.RemoveDoubleArrowShapeExistingSlide(filename: "sample.pptx");
 
+            //DoubleBracketExamples doubleBracketExamples = new DoubleBracketExamples();
+            //doubleBracketExamples.DrawNewDoubleBracketShapeInNewSlide(filename: "sample.pptx");
+            //doubleBracketExamples.RemoveDoubleBracketExistingSlide(filename: "sample.pptx");
+
+            //DoubleBraceExamples doubleBraceExamples = new DoubleBraceExamples();
+            //doubleBraceExamples.DrawNewDoubleBraceShapeInNewSlide(filename: "sample.pptx");
+            //doubleBraceExamples.RemoveDoubleBraceExistingSlide(filename: "sample.pptx");
+
+            //PentagonExamples pentagonExamples = new PentagonExamples();
+            //pentagonExamples.DrawNewPentagonShapeInNewSlide(filename: "sample.pptx");
+            //pentagonExamples.RemovePentagonShapeExistingSlide(filename: "sample.pptx");
         }
     }
 }
