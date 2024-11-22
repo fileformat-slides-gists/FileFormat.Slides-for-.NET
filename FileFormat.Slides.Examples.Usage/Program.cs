@@ -108,6 +108,18 @@ namespace FileFormat.Slides.Examples.Usage
             //PentagonExamples pentagonExamples = new PentagonExamples();
             //pentagonExamples.DrawNewPentagonShapeInNewSlide(filename: "sample.pptx");
             //pentagonExamples.RemovePentagonShapeExistingSlide(filename: "sample.pptx");
+
+            //HexagonExamples hexagonExamples = new HexagonExamples();
+            //hexagonExamples.DrawNewHexagonShapeInNewSlide(filename: "sample.pptx");
+            //hexagonExamples.RemoveHexagonShapeExistingSlide(filename: "sample.pptx");
+
+            //TrapezoidExamples trapezoidExamples = new TrapezoidExamples();
+            //trapezoidExamples.DrawNewTrapezoidShapeInNewSlide(filename: "sample.pptx");
+            //trapezoidExamples.RemoveTrapezoidShapeExistingSlide(filename: "sample.pptx");
+
+            //PieExamples pieExamples = new PieExamples();
+            //pieExamples.DrawNewPieShapeInNewSlide(filename: "sample.pptx");
+            //pieExamples.RemovePieShapeExistingSlide(filename: "sample.pptx");
         }
     }
 }

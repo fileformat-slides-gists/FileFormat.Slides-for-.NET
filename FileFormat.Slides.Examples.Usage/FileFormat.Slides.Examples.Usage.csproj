@@ -12,6 +12,10 @@
     <Optimize>True</Optimize>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FileFormat.Slides" Version="24.11.0" />
+  </ItemGroup>
+
 
 
   <ItemGroup>
