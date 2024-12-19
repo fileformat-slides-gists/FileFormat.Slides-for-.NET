@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FileFormat.Slides" Version="24.11.0" />
+    <PackageReference Include="FileFormat.Slides" Version="24.12.1" />
   </ItemGroup>
 
 

@@ -73,6 +73,38 @@ namespace FileFormat.Slides.Examples
             }
         }
         /// <summary>
+        /// This method adds Circle segment or shape in the silde of a new PowerPoint presentation with animation.
+        /// </summary>
+        /// <param name="documentDirectory">Path of the presentation folder</param>
+        /// <param name="filename">Presentation name</param>
+        public void DrawCircleShapeWithAnimation(string documentDirectory = newDocsDirectory, string filename = "test.pptx")
+        {
+            try
+            {
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+                // Create an instance of Circle
+                Circle Circle = new Circle();
+                // Set height and width
+                Circle.Width = 400.0;
+                Circle.Height = 400.0;
+                // Set Y position
+                Circle.Y = 100.0;
+                // Set animation
+                Circle.Animation = Common.Enumerations.AnimationType.FlyIn;
+                // First slide
+                Slide slide = presentation.GetSlides()[1];
+                // Add Circle shapes.
+                slide.DrawCircle(Circle);
+                // Save the PPT or PPTX
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+        }
+        /// <summary>
         /// This method Sets the background color of a Circle shape
         /// </summary>
         /// <param name="documentDirectory">Path of the presentation folder</param>

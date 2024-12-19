@@ -76,6 +76,38 @@ namespace FileFormat.Slides.Examples
             }
         }
         /// <summary>
+        /// This method adds DoubleBrace segment or shape in the silde of a new PowerPoint presentation with animation.
+        /// </summary>
+        /// <param name="documentDirectory">Path of the presentation folder</param>
+        /// <param name="filename">Presentation name</param>
+        public void DrawNewDoubleBraceShapeWithAnimation(string documentDirectory = newDocsDirectory, string filename = "test.pptx")
+        {
+            try
+            {
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+                // Create an instance of DoubleBrace
+
+                DoubleBrace DoubleBrace = new DoubleBrace();
+                // Set height and width
+                DoubleBrace.Width = 400.0;
+                DoubleBrace.Height = 400.0;
+                // Set Y position
+                DoubleBrace.Y = 100.0;
+                DoubleBrace.Animation = Common.Enumerations.AnimationType.FlyIn;
+                // First slide
+                Slide slide = presentation.GetSlides()[1];
+                // Add DoubleBrace shapes.
+                slide.DrawDoubleBrace(DoubleBrace);
+                // Save the PPT or PPTX
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+        }
+        /// <summary>
         /// This method Sets the background color of a DoubleBrace shape
         /// </summary>
         /// <param name="documentDirectory">Path of the presentation folder</param>

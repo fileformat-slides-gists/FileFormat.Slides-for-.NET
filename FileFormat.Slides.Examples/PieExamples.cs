@@ -55,16 +55,48 @@ namespace FileFormat.Slides.Examples
             {
                 Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
                 // Create an instance of Pie
-                Pie pentagon = new Pie();
+                Pie pie = new Pie();
                 // Set height and width
-                pentagon.Width = 400.0;
-                pentagon.Height = 400.0;
+                pie.Width = 400.0;
+                pie.Height = 400.0;
                 // Set Y position
-                pentagon.Y = 100.0;
+                pie.Y = 100.0;
                 // First slide
                 Slide slide = presentation.GetSlides()[1];
                 // Add Pie shapes.
-                slide.DrawPie(pentagon);
+                slide.DrawPie(pie);
+                // Save the PPT or PPTX
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+        }
+        /// <summary>
+        /// This method adds Pie segment or shape in the silde of a new PowerPoint presentation with animation.
+        /// </summary>
+        /// <param name="documentDirectory">Path of the presentation folder</param>
+        /// <param name="filename">Presentation name</param>
+        public void DrawNewPieShapeWithAnimation(string documentDirectory = newDocsDirectory, string filename = "test.pptx")
+        {
+            try
+            {
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+                // Create an instance of Pie
+                Pie pie = new Pie();
+                // Set animation
+                pie.Animation = Common.Enumerations.AnimationType.FlyIn;
+                // Set height and width
+                pie.Width = 400.0;
+                pie.Height = 400.0;
+                // Set Y position
+                pie.Y = 100.0;
+                // First slide
+                Slide slide = presentation.GetSlides()[1];
+                // Add Pie shapes.
+                slide.DrawPie(pie);
                 // Save the PPT or PPTX
                 presentation.Save();
 

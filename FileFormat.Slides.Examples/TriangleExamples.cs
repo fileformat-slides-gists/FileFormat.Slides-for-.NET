@@ -75,6 +75,38 @@ namespace FileFormat.Slides.Examples
             }
         }
         /// <summary>
+        /// This method adds Triangle segment or shape in the silde of a new PowerPoint presentation with animation.
+        /// </summary>
+        /// <param name="documentDirectory">Path of the presentation folder</param>
+        /// <param name="filename">Presentation name</param>
+        public void DrawNewTriangleShapeWithAnimation(string documentDirectory = newDocsDirectory, string filename = "test.pptx")
+        {
+            try
+            {
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+                // Create an instance of Triangle
+                Triangle Triangle = new Triangle();
+                // Set height and width
+                Triangle.Width = 400.0;
+                Triangle.Height = 400.0;
+                // Set Y position
+                Triangle.Y = 100.0;
+                // Set animation
+                Triangle.Animation = Common.Enumerations.AnimationType.FlyIn;
+                // First slide
+                Slide slide = presentation.GetSlides()[1];
+                // Add Triangle shapes.
+                slide.DrawTriangle(Triangle);
+                // Save the PPT or PPTX
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+        }
+        /// <summary>
         /// This method Sets the background color of a Triangle shape
         /// </summary>
         /// <param name="documentDirectory">Path of the presentation folder</param>

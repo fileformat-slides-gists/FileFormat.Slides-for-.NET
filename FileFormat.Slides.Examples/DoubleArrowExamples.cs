@@ -76,6 +76,38 @@ namespace FileFormat.Slides.Examples
             }
         }
         /// <summary>
+        /// This method adds DoubleArrow segment or shape in the silde of a new PowerPoint presentation with animation.
+        /// </summary>
+        /// <param name="documentDirectory">Path of the presentation folder</param>
+        /// <param name="filename">Presentation name</param>
+        public void DrawNewDoubleArrowShapeWithAnimation(string documentDirectory = newDocsDirectory, string filename = "test.pptx")
+        {
+            try
+            {
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+                // Create an instance of DoubleArrow
+
+                DoubleArrow DoubleArrow = new DoubleArrow();
+                // Set height and width
+                DoubleArrow.Width = 400.0;
+                DoubleArrow.Height = 400.0;
+                // Set Y position
+                DoubleArrow.Y = 100.0;
+                // First slide
+                DoubleArrow.Animation = Common.Enumerations.AnimationType.FlyIn;
+                Slide slide = presentation.GetSlides()[1];
+                // Add DoubleArrow shapes.
+                slide.DrawDoubleArrow(DoubleArrow);
+                // Save the PPT or PPTX
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+        }
+        /// <summary>
         /// This method Sets the background color of a DoubleArrow shape
         /// </summary>
         /// <param name="documentDirectory">Path of the presentation folder</param>

@@ -75,6 +75,38 @@ namespace FileFormat.Slides.Examples
             }
         }
         /// <summary>
+        /// This method adds Rectangle segment or shape in the silde of a new PowerPoint presentation with animation.
+        /// </summary>
+        /// <param name="documentDirectory">Path of the presentation folder</param>
+        /// <param name="filename">Presentation name</param>
+        public void DrawNewRectangleShapeWithAnimation(string documentDirectory = newDocsDirectory, string filename = "test.pptx")
+        {
+            try
+            {
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+                // Create an instance of Rectangle
+                Rectangle rectangle = new Rectangle();
+                // Set height and width
+                rectangle.Width = 400.0;
+                rectangle.Height = 400.0;
+                // Set Y position
+                rectangle.Y = 100.0;
+                // Set animation
+                rectangle.Animation = Common.Enumerations.AnimationType.FlyIn;
+                // First slide
+                Slide slide = presentation.GetSlides()[1];
+                // Add Rectangle shapes.
+                slide.DrawRectangle(rectangle);
+                // Save the PPT or PPTX
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+        }
+        /// <summary>
         /// This method Sets the background color of a Rectangle shape
         /// </summary>
         /// <param name="documentDirectory">Path of the presentation folder</param>

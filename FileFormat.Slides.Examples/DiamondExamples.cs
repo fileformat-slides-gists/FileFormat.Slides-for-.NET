@@ -75,6 +75,37 @@ namespace FileFormat.Slides.Examples
             }
         }
         /// <summary>
+        /// This method adds Diamond segment or shape in the silde of a new PowerPoint presentation with animation.
+        /// </summary>
+        /// <param name="documentDirectory">Path of the presentation folder</param>
+        /// <param name="filename">Presentation name</param>
+        public void DrawNewDiamondShapeWithAnimation(string documentDirectory = newDocsDirectory, string filename = "test.pptx")
+        {
+            try
+            {
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+                // Create an instance of Diamond
+                Diamond Diamond = new Diamond();
+                // Set height and width
+                Diamond.Width = 400.0;
+                Diamond.Height = 400.0;
+                // Set Y position
+                Diamond.Y = 100.0;
+                // First slide
+                Diamond.Animation = Common.Enumerations.AnimationType.FlyIn;
+                Slide slide = presentation.GetSlides()[1];
+                // Add Diamond shapes.
+                slide.DrawDiamond(Diamond);
+                // Save the PPT or PPTX
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+        }
+        /// <summary>
         /// This method Sets the background color of a Diamond shape
         /// </summary>
         /// <param name="documentDirectory">Path of the presentation folder</param>
