@@ -135,6 +135,53 @@ namespace FileFormat.Slides.Examples
                 throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
             }
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="documentDirectory"></param>
+        /// <param name="filename"></param>
+        /// <exception cref="FileFormat.Slides.Common.FileFormatException"></exception>
+        public void SetDimensionsOfSlides(string documentDirectory = existingDocsDirectory, string filename = "test.pptx")
+        {
+
+            try
+            {
+                // Create instance of presentation
+                Presentation presentation = Presentation.Open($"{documentDirectory}/{filename}");
+
+                presentation.SlideHeight = 400;
+                presentation.SlideWidth = 700;
+                //Create instances of text shapes and set their texts.
+                TextShape shape = new TextShape();
+                shape.Text = "Title: Here is my first title From FF";
+                TextShape shape2 = new TextShape();
+                shape2.Text = "Body : Here is my first title From FF";
+                shape2.Y = 25.9;
+                // Create new slide
+                Slide slide = new Slide();
+                // Set background color of slide because default background color is black.
+                slide.BackgroundColor = Colors.Silver;
+                // Add text shapes.
+                slide.AddTextShapes(shape);
+                slide.AddTextShapes(shape2);
+                // Adding slides
+                presentation.AppendSlide(slide);
+                // Save presentation
+                presentation.Save();
+
+            }
+            catch (System.Exception ex)
+            {
+                throw new FileFormat.Slides.Common.FileFormatException("An error occurred.", ex);
+            }
+
+        }
+        /// <summary>
+        /// Example to add background color to existing slide
+        /// </summary>
+        /// <param name="documentDirectory"></param>
+        /// <param name="filename"></param>
+        /// <exception cref="FileFormat.Slides.Common.FileFormatException"></exception>
         public void AddBackgroundColorToAnExistingSlide (string documentDirectory = existingDocsDirectory, string filename = "test.pptx")
         {
             

@@ -9,6 +9,8 @@ namespace FileFormat.Slides.Examples.Usage
         {
             //SlideExamples slideExamples = new SlideExamples();
 
+            //slideExamples.SetDimensionsOfSlides();
+
             //slideExamples.CreateNewSlideInNewPresentation();
 
             //slideExamples.CreateNewSlideInExistingPresentation(filename:"test.pptx");
